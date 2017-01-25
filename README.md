@@ -1,7 +1,5 @@
 # Alexa + IFTTT + Johnny-Five + Arduino + LED strip = Demo 1
 
-![](https://github.com/rwaldron/johnny-five/raw/master/assets/sgier-johnny-five.png)
-
 # Johnny-Five
 ### First demo from my talk on creating IoT devices from J5. Using Alexa to turn a strip of LEDs on and off.
 
@@ -22,12 +20,14 @@ Compile & Upload
 
 Asuming you have latest version of node, clone the project to a folder, and install the 'johnny-five' node library.
 
-```git clone https://github.com/AdenForshaw/j5-talk-demo1-leds
+```
+git clone https://github.com/AdenForshaw/j5-talk-demo1-leds
 npm install
 ```
 **Test Run & Try API**
 
-```node led-server.js
+```
+node led-server.js
 ```
 
 Then try the API methods in your browser:
@@ -53,6 +53,7 @@ e.g. http://[dynamicID].ngrok.io/api/on
 
 
 
+![](https://github.com/rwaldron/johnny-five/raw/master/assets/sgier-johnny-five.png)
 
 **Troubleshooting**
 
