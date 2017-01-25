@@ -1,7 +1,7 @@
 
 var five = require("johnny-five");
 
-var board = new five.Board({port:"/dev/cu.usbmodem1411"});
+var board = new five.Board();
 var led;
 
 board.on("ready", function() {
