@@ -1,6 +1,5 @@
 # Alexa + IFTTT + Johnny-Five + Arduino + LED strip = Demo 1
 
-# Johnny-Five
 ### First demo from my talk on creating IoT devices from J5. Using Alexa to turn a strip of LEDs on and off.
 
 _Slides by [Aden Forshaw](http://twitter.com/adenforshaw)_
@@ -11,10 +10,10 @@ Either win it as a prize at the talk, or buy from Amazon.com - £17 for an offic
 
 Flash the firmware to StandardFirmata, new Arduino's should already have this, but worth double checking.
 
-Download & open the Ardunio.cc IDE
-Plug the Arduino in
-File->Examples->Firmata->StandardFirmata
-Compile & Upload
+- Download & open the Ardunio.cc IDE
+- Plug the Arduino in
+- File->Examples->Firmata->StandardFirmata
+- Compile & Upload
 
 **Clone this project**
 
@@ -32,33 +31,39 @@ node led-server.js
 
 Then try the API methods in your browser:
 
-http://localhost:8090/api/on
-http://localhost:8090/api/off
+- http://localhost:8090/api/on
+- http://localhost:8090/api/off
 
 **Ngrok**
 Use ngrok to expose port 8090 to the web. You'll get a http://[dynamicID].ngrok.io url.
 
+```
+./ngrok http 8090
+```
+
 **IFTTT & Alexa**
 
-Signup to https://ifttt.com/
-Add Alexa as a service https://ifttt.com/my_services
+- Signup to https://ifttt.com/
+- Add Alexa as a service https://ifttt.com/my_services
 
-Create an Applet triggered by Alexa phrase, that actions a Maker channel.
+Create an Applet triggered by Alexa phrase e.g. "LED On" , that actions a Maker channel.
 In the maker channel use the ngrok url from above, with '/api/on' appended
 
 e.g. http://[dynamicID].ngrok.io/api/on
 
 **Try it**
 
-
-
-
-![](https://github.com/rwaldron/johnny-five/raw/master/assets/sgier-johnny-five.png)
+"Alexa trigger LED On"
 
 **Troubleshooting**
+If you have more than one Ardunio plugged in you'll need to specify the port when declaring the board.
 
-
+e.g. 
+```
+var board = new five.Board({port:"/dev/cu.wchusbserial14210"});
+```
 
 **Credits**
 
-- 
+- Johnny-Five.io is awesome, i've got much love for its creator [Rick Waldron] (https://github.com/rwaldron)
+
