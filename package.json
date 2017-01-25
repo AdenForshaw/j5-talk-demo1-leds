@@ -1,0 +1,25 @@
+{
+  "name": "j5-talk-demo1",
+  "version": "1.0.0",
+  "description": "Code for led strip/ J5 /  IoT demo.",
+  "main": "led-strip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdenForshaw/j5-talk-demo1-leds.git"
+  },
+  "keywords": [
+    "Johnny-five.io",
+    "arduino",
+    "led",
+    "strip"
+  ],
+  "author": "Aden Forshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdenForshaw/j5-talk-demo1-leds/issues"
+  },
+  "homepage": "https://github.com/AdenForshaw/j5-talk-demo1-leds#readme"
+}
