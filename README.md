@@ -35,18 +35,19 @@ Then try the API methods in your browser:
 - http://localhost:8090/api/off
 
 **Ngrok**
+
+![](https://github.com/AdenForshaw/j5-talk-demo1-leds/blob/master/images/Ngrok.png)
+
 Use ngrok to expose port 8090 to the web. You'll get a http://[dynamicID].ngrok.io url.
 
 ```
 ./ngrok http 8090
 ```
 
-![](https://github.com/AdenForshaw/j5-talk-demo1-leds/blob/master/images/IFTTT-Alexa-Maker.png?raw=true)
 
 
 **IFTTT & Alexa**
-
-![](https://github.com/AdenForshaw/j5-talk-demo1-leds/blob/master/images/Ngrok.png)
+![](https://github.com/AdenForshaw/j5-talk-demo1-leds/blob/master/images/IFTTT-Alexa-Maker.png?raw=true)
 
 - Signup to https://ifttt.com/
 - Add Alexa as a service https://ifttt.com/my_services
