@@ -47,7 +47,8 @@ Use ngrok to expose port 8090 to the web. You'll get a http://[dynamicID].ngrok.
 
 
 **IFTTT & Alexa**
-![](https://github.com/AdenForshaw/j5-talk-demo1-leds/blob/master/images/IFTTT-Alexa-Maker.png?raw=true)
+
+![](https://github.com/AdenForshaw/j5-talk-demo1-leds/blob/master/images/IFTTT-Alexa-Maker.png)
 
 - Signup to https://ifttt.com/
 - Add Alexa as a service https://ifttt.com/my_services
